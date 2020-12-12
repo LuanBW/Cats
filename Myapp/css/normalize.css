@@ -1,0 +1,26 @@
+/*
+* @Author: 86133
+* @Date:   2020-06-03 20:22:50
+* @Last Modified by:   86133
+* @Last Modified time: 2020-06-03 20:25:31
+*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*清除浮动*/
+.clear:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
